@@ -7,5 +7,5 @@ let
    beamer trimspaces zhnumber changepage framed; });
 
 in mkShell {
-  buildInputs = [ tl ];
+  buildInputs = [ tl emacs ];
 }
